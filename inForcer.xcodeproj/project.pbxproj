@@ -14,6 +14,7 @@
 		BAEE4DD31946FBBD00A3A606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEE4DD11946FBBD00A3A606 /* Main.storyboard */; };
 		BAEE4DD51946FBBD00A3A606 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEE4DD41946FBBD00A3A606 /* Images.xcassets */; };
 		BAEE4DE11946FBBD00A3A606 /* inForcerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEE4DE01946FBBD00A3A606 /* inForcerTests.swift */; };
+		BAEE4DEB19478F4800A3A606 /* SpaceShipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEE4DEA19478F4800A3A606 /* SpaceShipScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		BAEE4DDA1946FBBD00A3A606 /* inForcerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inForcerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEE4DDF1946FBBD00A3A606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAEE4DE01946FBBD00A3A606 /* inForcerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inForcerTests.swift; sourceTree = "<group>"; };
+		BAEE4DEA19478F4800A3A606 /* SpaceShipScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceShipScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,8 @@
 		BAEE4DC61946FBBD00A3A606 /* inForcer */ = {
 			isa = PBXGroup;
 			children = (
-				BAEE4DC91946FBBD00A3A606 /* AppDelegate.swift */,
-				BAEE4DCB1946FBBD00A3A606 /* GameScene.sks */,
 				BAEE4DCD1946FBBD00A3A606 /* GameScene.swift */,
+				BAEE4DEA19478F4800A3A606 /* SpaceShipScene.swift */,
 				BAEE4DCF1946FBBD00A3A606 /* GameViewController.swift */,
 				BAEE4DD11946FBBD00A3A606 /* Main.storyboard */,
 				BAEE4DD41946FBBD00A3A606 /* Images.xcassets */,
@@ -93,6 +94,8 @@
 		BAEE4DC71946FBBD00A3A606 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAEE4DC91946FBBD00A3A606 /* AppDelegate.swift */,
+				BAEE4DCB1946FBBD00A3A606 /* GameScene.sks */,
 				BAEE4DC81946FBBD00A3A606 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAEE4DCE1946FBBD00A3A606 /* GameScene.swift in Sources */,
+				BAEE4DEB19478F4800A3A606 /* SpaceShipScene.swift in Sources */,
 				BAEE4DD01946FBBD00A3A606 /* GameViewController.swift in Sources */,
 				BAEE4DCA1946FBBD00A3A606 /* AppDelegate.swift in Sources */,
 			);
